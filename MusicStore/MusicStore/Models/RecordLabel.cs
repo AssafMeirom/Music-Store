@@ -9,9 +9,9 @@ namespace MusicStore.Models
     {
         public int Id { get; set; }
         public String name { get; set; }
-        public Artists { get; set; }
-        public int Id { get; set; }
-        public int Id { get; set; }
-        public int Id { get; set; }
+        public Artist artists { get; set; } 
+        public Song songs { get; set; } //array of songs
+        public Playlist playlists { get; set;  }
+        public Album albums { get; set; }
     }
 }
